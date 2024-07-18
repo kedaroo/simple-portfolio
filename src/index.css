@@ -26,6 +26,6 @@
   }
 
   .skill-con {
-    @apply flex flex-col items-center;
+    @apply flex flex-col gap-1 items-center *:text-sm;
   }
 }
