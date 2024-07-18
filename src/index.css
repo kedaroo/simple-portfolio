@@ -22,7 +22,7 @@
 
 @layer components {
   .card-con {
-    @apply p-4 rounded-xl bg-slate-100 w-full border;
+    @apply p-4 rounded-xl bg-slate-100 w-full border shadow-sm;
   }
 
   .skill-con {
