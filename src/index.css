@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl font-bold;
+  }
+
+  h2 {
+    @apply font-semibold text-xl;
+  }
+
+  h3 {
+    @apply font-semibold text-lg;
+  }
+  
+  h4 {
+    @apply font-medium;
+  }
+}
+
+@layer components {
+  .card-con {
+    @apply border border-black p-4 rounded-xl bg-slate-100;
+  }
+
+  .skill-con {
+    @apply flex flex-col items-center;
+  }
+}
