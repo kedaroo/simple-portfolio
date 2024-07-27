@@ -799,6 +799,10 @@ body {
   line-height: 1.25rem;
 }
 
+.\*\:block > * {
+  display: block;
+}
+
 .\*\:flex > * {
   display: flex;
 }
