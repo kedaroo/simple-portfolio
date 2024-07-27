@@ -22,10 +22,15 @@
 
 @layer components {
   .card-con {
-    @apply p-4 rounded-xl bg-slate-100 w-full border shadow-sm;
+    @apply p-4 rounded-xl  w-full border;
   }
 
   .skill-con {
     @apply flex flex-col gap-1 items-center *:text-sm;
   }
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
 }
