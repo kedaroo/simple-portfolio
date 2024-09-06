@@ -44,7 +44,7 @@
               <!-- <img src="./assets/software-engineer.svg" class="max-w-40"> -->
               <h4 class="">Software Engineer</h4>
               <h5 class="">Fable</h5>
-              <div class="flex items-center gap-1 mt-2">
+              <div class="flex items-center gap-1 mt-2 text-neutral-500">
                 <img src="./assets/location-pin.svg" class="dark:invert h-3 opacity-50" alt="location icon">
                 <p class="text-sm">Pune, India</p>
               </div>
@@ -53,23 +53,31 @@
 
           <!-- About -->
           <div class="card-con row-span-2 md:hidden">
-            <h3>About</h3>
+            <div class="flex items-center gap-2">
+              <img src="./assets/about.svg" class="dark:invert h-6" alt="arrow">
+              <h3>About</h3>
+            </div>
+
+            
             <div class="flex flex-col divide-y dark:divide-neutral-700 *:py-2">
               <p>
                 Hey! I am Kedar. I am an equal parts artist, engineer and builder.
               </p>
               <p>
-                Currently a founding engineer at Fable, where I've spent 1.8 years
-                leading frontend system development from the ground up. I craft lean,
-                scalable frontend solutions with exceptional user experiences. I excel
-                in optimizing web vitals and have experience with SSR, resumability,
-                and SSG. I have worked with bundlers to optimize builds and have gained
+                I'm a founding engineer at Fable, where I've spent 1.8 years
+                leading frontend system development from the ground up. I specialize in 
+                crafting lean, end-to-end solutions that scale effortlessly while 
+                delivering exceptional user experiences. 
+                Performance is at the core of everything I build—I'm highly focused
+                 on optimizing web vitals and have experience with SSR, SSG, and resumability.
+                I have worked with bundlers to optimize builds and have gained
                 deep knowledge of DOM APIs and the browser ecosystem while shaping the
                 product at Fable.
               </p>
               <p>
                 Beyond my role, I participate in hackathons and enjoy sharing knowledge
-                and experiences by speaking at tech events.
+                and experiences by speaking at tech events where I explore topics like 
+                performance, frontend development, and cutting-edge web technologies.
               </p>
             </div>
 
@@ -77,7 +85,10 @@
 
           <!-- Experience -->
           <div class="card-con">
-            <h3>Experience</h3>
+            <div class="flex items-center gap-2">
+              <img src="./assets/experience.svg" class="dark:invert h-6" alt="arrow">
+              <h3>Experience</h3>
+            </div>
 
             <div class="flex flex-col divide-y dark:divide-neutral-700 *:py-2">
               <div>
@@ -89,12 +100,12 @@
                 <div class="ml-2 flex flex-col gap-2">
                   <div>
                     <div>Software Engineer</div>
-                    <div class="text-sm italic">Jun 2023 - Present</div>
+                    <div class="text-sm italic text-neutral-500">Jun 2023 - Present</div>
                   </div>
 
                   <div>
                     <div>Software Engineer Intern</div>
-                    <div class="text-sm italic">Nov 2022 - May 2023</div>
+                    <div class="text-sm italic text-neutral-500">Nov 2022 - May 2023</div>
                   </div>
 
                 </div>
@@ -108,7 +119,7 @@
                 </a>
                 <div class="ml-2">
                   <div>Intern</div>
-                  <div class="text-sm italic">Jun 2022 - Aug 2022</div>
+                  <div class="text-sm italic text-neutral-500">Jun 2022 - Aug 2022</div>
                 </div>
               </div>
             </div>
@@ -116,60 +127,104 @@
           </div>
         </div>
 
-        <!-- Achievements -->
+
+        <!-- My Apps -->
         <div class="card-con">
-          <h3>Achievements & Projects</h3>
+          <div class="flex items-center gap-2">
+            <img src="./assets/projects.svg" class="dark:invert h-6" alt="arrow">
+            <h3>My Apps</h3>
+          </div>
 
-          <div class="flex flex-col divide-y dark:divide-neutral-700 *:py-2">
-            <div>
-              <a href="https://devpost.com/software/roadmaprunner" target="_blank" rel="noopener noreferrer"
-                class="flex items-center gap-2">
-                <h4>Winner - Treasure Hacks 3.0 Hackathon</h4>
-                <img src="./assets/arrow-up-right.svg" class="dark:invert h-4 opacity-40" alt="arrow">
-              </a>
-              <ul class="ml-4 list-disc list-outside italic">
-                <li>
-                  Achieved first place at TreasureHacks 3.0 Hackathon among 600+ participants.
-                </li>
-                <li>
-                  Launched RoadmapRunner, an app that streamlines software development learning, attracting over 100
-                  users.
-                </li>
-              </ul>
+          <div class="flex mt-2 flex-col divide-y dark:divide-neutral-700 *:py-3">
+
+            <div class="talk-con">
+              <img src="./assets/roadmaprunner-app.png" class="talk-img">
+              <div>
+                <a href="https://devpost.com/software/roadmaprunner" target="_blank" rel="noopener noreferrer"
+                  class="flex gap-2">
+                  <h4>Roadmap Runner</h4>
+                  <img src="./assets/arrow-up-right.svg" class="dark:invert h-4 opacity-40 mt-1" alt="arrow">
+                </a>
+                
+                <p class="italic text-sm text-neutral-500">
+                  Simplify learning software development with expert-created roadmaps, 
+                  progress tracking, consistency analysis, leaderboards, and social sharing for accountability!
+                </p>
+              </div>
             </div>
 
-            <div>
-              <h4>Winner - DIPEX 2020</h4>
-              <ul class="ml-4 list-disc list-outside italic">
-                <li>
-                  Achieved first place in a state-level competition with over 200 participants for designing and
-                  building a 3D printer from scratch.
-                </li>
-              </ul>
+            <div class="talk-con">
+              <img src="./assets/getinterviewready-app.png" class="talk-img">
+              <div>
+                <a href="https://getinterviewready.vercel.app/" target="_blank" rel="noopener noreferrer"
+                  class="flex gap-2">
+                  <h4>Get Interview Ready</h4>
+                  <img src="./assets/arrow-up-right.svg" class="dark:invert h-4 opacity-40 mt-1" alt="arrow">
+                </a>
+                
+                <p class="italic text-sm text-neutral-500">
+                  Nail tech interviews with your favourite prep app! 
+                  Helps you prepare for interviews, manage dream companies and much more!
+                </p>
+              </div>
             </div>
+            
+           
+            <div class="talk-con">
+              <img src="./assets/devcase-app.png" class="talk-img">
+              <div>
+                <a href="https://www.youtube.com/watch?v=L1_MXo8cwwQ" target="_blank" rel="noopener noreferrer"
+                  class="flex gap-2">
+                  <h4>Dev Case</h4>
+                  <img src="./assets/arrow-up-right.svg" class="dark:invert h-4 opacity-40 mt-1" alt="arrow">
+                </a>
+                
+                <p class="italic text-sm text-neutral-500">
+                  Showcase your developer skills with ease! Build your developer portfolio using DevCase!
+                </p>
+              </div>
+            </div>
+
+            
           </div>
 
         </div>
 
         <!-- tech talks -->
         <div class="card-con">
-          <h3>Tech Talks</h3>
+          <div class="flex items-center gap-2">
+            <img src="./assets/talks.svg" class="dark:invert h-6" alt="arrow">
+            <h3>Tech Talks</h3>
+          </div>
+          
 
-          <div class="flex flex-col divide-y dark:divide-neutral-700 *:py-2">
-            <div>
-              <a href="https://www.youtube.com/watch?v=sWtwS9Ia-D4" target="_blank" rel="noopener noreferrer"
-                class="flex items-center gap-2">
-                <h4>Exploring Resumability: How It Makes Instant Loading Apps Possible</h4>
-                <img src="./assets/arrow-up-right.svg" class="dark:invert h-4 opacity-40" alt="arrow">
-              </a>
-              
-              <p class="italic text-sm">Presented at FOSS United Bangalore Annual Meetup</p>
+          <div class="flex mt-2 flex-col divide-y dark:divide-neutral-700 *:py-3">
+
+            <div class="talk-con">
+              <img src="./assets/resumability-talk.jpeg" class="talk-img">
+              <div>
+                <a href="https://www.youtube.com/watch?v=sWtwS9Ia-D4" target="_blank" rel="noopener noreferrer"
+                  class="flex gap-2">
+                  <h4>Exploring Resumability: How It Makes Instant Loading Apps Possible 
+                    <span class="watch-on-youtube"><img src="./assets/youtube-color.svg" class="h-4 inline"> Watch on YouTube </span>
+                  </h4>
+                  <!-- <img src="./assets/arrow-up-right.svg" class="dark:invert h-4 opacity-40 mt-1" alt="arrow"> -->
+                </a>
+                
+                <p class="italic text-sm text-neutral-500">Presented at FOSS United Bangalore Annual Meetup</p>
+              </div>
+            </div>
+            
+            <div class="talk-con">
+              <img src="./assets/need-for-speed-talk.jpeg" class="talk-img">
+
+              <div>
+                <h4>Need for Speed: Best Practices for Web Performance Optimization</h4>
+                <p class="italic text-sm text-neutral-500">Presented at React Pune, Laravel Pune and Laravel Mumbai communities.</p>
+              </div>
             </div>
 
-            <div>
-              <h4>Need for Speed: Best Practices for Web Performance Optimization</h4>
-              <p class="italic text-sm">Presented at React Pune, Laravel Pune and Laravel Mumbai communities.</p>
-            </div>
+            
           </div>
 
         </div>
@@ -180,74 +235,144 @@
 
         <!-- About -->
         <div class="card-con row-span-2 hidden md:block">
-          <h3>About</h3>
+          <div class="flex items-center gap-2">
+            <img src="./assets/about.svg" class="dark:invert h-6" alt="arrow">
+            <h3>About</h3>
+          </div>
+
           <div class="flex flex-col divide-y dark:divide-neutral-700 *:py-2">
             <p>
               Hey! I am Kedar. I am an equal parts artist, engineer and builder.
             </p>
             <p>
-              Currently a founding engineer at Fable, where I've spent 1.8 years
-              leading frontend system development from the ground up. I craft lean,
-              scalable frontend solutions with exceptional user experiences. I excel
-              in optimizing web vitals and have experience with SSR, resumability,
-              and SSG. I have worked with bundlers to optimize builds and have gained
+              I'm a founding engineer at Fable, where I've spent 1.8 years
+              leading frontend system development from the ground up. I specialize in 
+              crafting lean, end-to-end solutions that scale effortlessly while 
+              delivering exceptional user experiences. 
+              Performance is at the core of everything I build—I'm highly focused
+               on optimizing web vitals and have experience with SSR, SSG, and resumability.
+              I have worked with bundlers to optimize builds and have gained
               deep knowledge of DOM APIs and the browser ecosystem while shaping the
               product at Fable.
             </p>
             <p>
               Beyond my role, I participate in hackathons and enjoy sharing knowledge
-              and experiences by speaking at tech events.
+              and experiences by speaking at tech events where I explore topics like 
+              performance, frontend development, and cutting-edge web technologies.
             </p>
           </div>
         </div>
 
+
+        <!-- Achievements -->
+        <div class="card-con">
+          <div class="flex items-center gap-2">
+            <img src="./assets/medal.svg" class="dark:invert h-6" alt="arrow">
+            <h3>Achievements</h3>
+          </div>
+
+          <div class="flex mt-2 flex-col divide-y dark:divide-neutral-700 *:py-2">
+            <div>
+              <a href="https://devpost.com/software/roadmaprunner" target="_blank" rel="noopener noreferrer"
+                class="flex items-center gap-2">
+                <img src="./assets/gold.svg" class="h-8 bg-yellow-100 dark:bg-yellow-100/10 p-1 rounded-full">
+                <h4>Winner - Treasure Hacks 3.0 Hackathon</h4>
+                <img src="./assets/arrow-up-right.svg" class="dark:invert h-4 opacity-40" alt="arrow">
+              </a>
+              <ul class="ml-4 text-sm list-disc list-outside italic text-neutral-500">
+                <li>
+                  Achieved first place at TreasureHacks 3.0 Hackathon among 600+ participants.
+                </li>
+                <li>
+                  Launched RoadmapRunner, an app that streamlines software development learning, 
+                  attracting over 450 users.
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <div
+                class="flex items-center gap-2">
+                <img src="./assets/gold.svg" class="h-8 bg-yellow-100 dark:bg-yellow-100/10 p-1 rounded-full">
+                <h4>Winner - DIPEX 2020</h4>
+                <!-- <img src="./assets/arrow-up-right.svg" class="dark:invert h-4 opacity-40" alt="arrow"> -->
+            </div>
+              <ul class="ml-4 list-disc list-outside italic text-sm text-neutral-500">
+                <li>
+                  Achieved first place in a state-level competition with over 200 participants for designing and
+                  building a 3D printer from scratch.
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <div
+                class="flex items-center gap-2">
+                <img src="./assets/gold.svg" class="h-8 bg-yellow-100 dark:bg-yellow-100/10 p-1 rounded-full hue-rotate-180">
+                <h4>Top 8th Team - CrossKnotHacks Hackathon</h4>
+                <!-- <img src="./assets/arrow-up-right.svg" class="dark:invert h-4 opacity-40" alt="arrow"> -->
+            </div>
+              <ul class="ml-4 list-disc list-outside italic text-sm text-neutral-500">
+                <li>
+                  Made it to the Top 8 list of CrossKnot Hacks out of 75+ participants. 
+                  Built DevCase, an app to generate a developer portfolio website seamlessly.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
         <!-- Skills -->
         <div class="card-con ">
-          <h3>Skills</h3>
+          <div class="flex items-center gap-2">
+            <img src="./assets/skills.svg" class="dark:invert h-6" alt="arrow">
+            <h3>Skills</h3>
+          </div>
 
-          <div class="grid gap-4 mt-1 *:skill-con" style="grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));">
+          <div class="grid gap-4 mt-4 *:skill-con" style="grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));">
             <div>
-              <img src="./assets/html-5.svg" class="h-12" alt="html logo" />
+              <img src="./assets/html-5.svg" class="h-8" alt="html logo" />
               <p>HTML</p>
             </div>
 
             <div>
-              <img src="./assets/css-3.svg" class="h-12" alt="css logo" />
+              <img src="./assets/css-3.svg" class="h-8" alt="css logo" />
               <p>CSS</p>
             </div>
 
             <div>
-              <img src="./assets/js.svg" class="h-12" alt="javascript logo" />
+              <img src="./assets/js.svg" class="h-8" alt="javascript logo" />
               <p>Javascript</p>
             </div>
 
             <div>
-              <img src="./assets/node.svg" class="h-12" alt="node logo" />
+              <img src="./assets/node.svg" class="h-8" alt="node logo" />
               <p>Node.js</p>
             </div>
 
             <div>
-              <img src="./assets/react.svg" class="h-12" alt="react logo" />
+              <img src="./assets/react.svg" class="h-8" alt="react logo" />
               <p>React.js</p>
             </div>
 
             <div>
-              <img src="./assets/nextjs.svg" class="h-12 dark:invert" alt="next logo" />
+              <img src="./assets/nextjs.svg" class="h-8 dark:invert" alt="next logo" />
               <p>Next.js</p>
             </div>
 
             <div>
-              <img src="./assets/typescript.svg" class="h-12 scale-90" alt="typescript logo" />
+              <img src="./assets/typescript.svg" class="h-8 scale-90" alt="typescript logo" />
               <p>Typescript</p>
             </div>
 
             <div>
-              <img src="./assets/tailwind.svg" class="h-12 scale-90" alt="typescript logo" />
+              <img src="./assets/tailwind.svg" class="h-8 scale-90" alt="typescript logo" />
               <p>Tailwind</p>
             </div>
 
             <div>
-              <img src="./assets/go.svg" class="h-12" alt="go logo" />
+              <img src="./assets/go.svg" class="h-8" alt="go logo" />
               <p>Go</p>
             </div>
           </div>
@@ -263,7 +388,7 @@
             <div class="flex flex-col divide-y dark:divide-neutral-700 *:py-2">
               <div>
                 <h4>Designing Data-Intensive Applications</h4>
-                <p class="text-sm">Martin Kleppmann</p>
+                <p class="text-sm text-neutral-500">Martin Kleppmann</p>
               </div>
 
               <!-- <div>
@@ -273,12 +398,12 @@
 
               <div>
                 <h4>The Go Programming Language</h4>
-                <p class="text-sm">Alan A. A. Donovan, Brian W. Kernighan</p>
+                <p class="text-sm text-neutral-500">Alan A. A. Donovan, Brian W. Kernighan</p>
               </div>
 
               <div>
                 <h4>Animal Farm</h4>
-                <p class="text-sm">George Orwell</p>
+                <p class="text-sm text-neutral-500">George Orwell</p>
               </div>
             </div>
           </div>

@@ -28,6 +28,18 @@
   .skill-con {
     @apply flex flex-col gap-1 items-center *:text-sm;
   }
+
+  .talk-img {
+    @apply w-full lg:h-28 lg:w-48 object-cover rounded-md border;
+  }
+
+  .talk-con {
+    @apply flex-col flex gap-4 lg:flex-row;
+  }
+
+  .watch-on-youtube {
+    @apply border py-1 px-2 rounded-full text-sm font-normal inline-flex gap-1 items-center;
+  }
 }
 
 body {
