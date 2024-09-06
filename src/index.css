@@ -30,7 +30,7 @@
   }
 
   .talk-img {
-    @apply w-full lg:h-28 lg:w-48 object-cover rounded-md border;
+    @apply w-full lg:h-28 lg:w-48 object-cover rounded-md border dark:border-none;
   }
 
   .talk-con {
