@@ -42,7 +42,7 @@
   }
 
   .blog-con {
-    @apply flex border p-3 rounded-lg flex-col divide-y;
+    @apply flex border p-3 rounded-lg flex-col divide-y dark:divide-y-0 dark:border-neutral-700;
   }
 
   .watch-on-youtube {
