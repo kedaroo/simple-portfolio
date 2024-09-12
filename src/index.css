@@ -30,11 +30,19 @@
   }
 
   .talk-img {
-    @apply w-full lg:h-28 lg:w-48 object-cover rounded-md border dark:border-none;
+    @apply w-full lg:h-28 lg:w-52 object-cover rounded-md border dark:border-none;
+  }
+
+  .blog-img {
+    @apply w-full aspect-video object-cover rounded-lg dark:border-none;
   }
 
   .talk-con {
     @apply flex-col flex gap-4 lg:flex-row;
+  }
+
+  .blog-con {
+    @apply flex border p-3 rounded-lg flex-col divide-y;
   }
 
   .watch-on-youtube {
