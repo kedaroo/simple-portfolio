@@ -623,7 +623,7 @@ h4 {
 }
 
 .talk-img {
-  width: 100%;
+  aspect-ratio: 16 / 9;
   border-radius: 0.375rem;
   border-width: 1px;
   -o-object-fit: cover;
@@ -633,7 +633,6 @@ h4 {
 @media (min-width: 1024px) {
   .talk-img {
     height: 7rem;
-    width: 13rem;
   }
 }
 
@@ -883,10 +882,6 @@ h4 {
   border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
 }
 
-.self-start {
-  align-self: flex-start;
-}
-
 .text-nowrap {
   text-wrap: nowrap;
 }
@@ -929,10 +924,6 @@ h4 {
 
 .p-4 {
   padding: 1rem;
-}
-
-.pt-2 {
-  padding-top: 0.5rem;
 }
 
 .pt-1 {

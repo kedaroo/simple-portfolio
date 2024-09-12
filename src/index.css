@@ -30,7 +30,7 @@
   }
 
   .talk-img {
-    @apply w-full lg:h-28 lg:w-52 object-cover rounded-md border dark:border-none;
+    @apply lg:h-28 aspect-video object-cover rounded-md border dark:border-none;
   }
 
   .blog-img {
