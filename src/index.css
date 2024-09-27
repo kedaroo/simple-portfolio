@@ -34,7 +34,7 @@
   }
 
   .blog-img {
-    @apply w-full aspect-video object-cover rounded-lg dark:border-none;
+    @apply w-full aspect-video object-cover rounded-lg dark:border-none mb-2;
   }
 
   .talk-con {
